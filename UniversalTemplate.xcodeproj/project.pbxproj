@@ -13,6 +13,9 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1C60667C2DBA3EA20095DACB /* UniversalTemplate */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFileTypes = {
+				Entitlements/UniversalTemplate.entitlements = text.plist.entitlements;
+			};
 			path = UniversalTemplate;
 			sourceTree = "<group>";
 		};
