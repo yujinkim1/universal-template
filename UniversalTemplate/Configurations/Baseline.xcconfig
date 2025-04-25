@@ -1,0 +1,18 @@
+//
+//  Baseline.xcconfig
+//  UniversalTemplate
+//
+//  Created by Yujin Kim on 4/25/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+SWIFT_VERSION = 6.0
+CLANG_ENABLE_MODULES = YES
+DEFINES_MODULE = YES
+ENABLE_BITCODE = NO
+CLANG_WARN_STRICT_PROTOTYPES = NO
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM = $(DEVELOPMENT_TEAM_ID)
+APP_DISPLAY_NAME = UniversalTemplate
