@@ -1,0 +1,12 @@
+//
+//  Staging.xcconfig
+//  UniversalTemplate
+//
+//  Created by Yujin Kim on 4/26/25.
+//
+
+SWIFT_OPTIMIZATION_LEVEL = -Owholemodule
+ENABLE_TESTABILITY = YES
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+BUNDLE_DISPLAY_NAME_SUFFIX = -STAGING
+OTHER_SWIFT_FLAGS = $(inherited) -DSTAGING
